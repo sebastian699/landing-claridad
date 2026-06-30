@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Privada | Claridad Absoluta</title>
+    
+    <!-- 1. OPTIMIZACIÓN PARA RASTREO Y GOOGLE ADS -->
+    <meta name="description" content="Encuentra respuestas reales sobre el amor, los negocios y tu camino espiritual a través de una sesión privada y 100% confidencial.">
+    <meta name="robots" content="index, follow">
+
+    <!-- 2. CONTENEDORES DE SEGUIMIENTO REALES -->
+    <!-- Google Tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18273932208"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18273932208');
+    </script>
+
+    <!-- Event snippet for Clic_WhatsApp conversion page -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-18273932208/wXZiCOWugsgcELCn2IlE',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 'YOUR_PIXEL_ID');
+      fbq('track', 'PageView');
+    </script>
+    <!-- Fin Tracking -->
+
+    <!-- Tipografías Elegantes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        /* CONFIGURACIÓN GENERAL */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #060608;
+            color: #E2E8F0;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            line-height: 1.6;
+            position: relative;
+        }
+
+        /* FONDO DE ESTRELLAS DEL UNIVERSO */
+        .universe-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                radial-gradient(white, rgba(255,255,255,.25) 2px, transparent 40px),
+                radial-gradient(white, rgba(255,255,255,.18) 1px, transparent 30px),
+                radial-gradient(white, rgba(255,255,255,.12) 2px, transparent 40px);
+            background-size: 550px 550px, 350px 350px, 250px 250px;
+            background-position: 0 0, 40px 60px, 130px 270px;
+            z-index: 1;
+            opacity: 0.4;
+            pointer-events: none;
+            animation: starsTwinkle 120s linear infinite;
+        }
+
+        /* CAPA ADICIONAL DE GEOMETRÍA SAGRADA */
+        .bg-pattern {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                linear-gradient(to right, rgba(197, 160, 89, 0.02) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(197, 160, 89, 0.02) 1px, transparent 1px);
+            background-size: 100px 100px;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        /* MANDALA DE GEOMETRÍA SAGRADA ROTANDO */
+        .sacred-geometry {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 1400px;
+            height: 1400px;
+            transform: translate(-50%, -50%);
+            z-index: 0;
+            opacity: 0.05;
+            pointer-events: none;
+            animation: rotateSlow 180s linear infinite;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 3;
+        }
+
+        /* AURAS DORADAS */
+        .aura-glow {
+            position: absolute;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(247, 208, 112, 0.22) 0%, rgba(197, 160, 89, 0.10) 45%, rgba(8, 8, 12, 0) 72%);
+            filter: blur(60px);
+            z-index: -1;
+            pointer-events: none;
+            animation: pulseAura 7s infinite alternate ease-in-out;
+        }
+
+        .aura-glow.secondary {
+            background: radial-gradient(circle, rgba(197, 160, 89, 0.16) 0%, rgba(8, 8, 12, 0) 70%);
+            width: 600px;
+            height: 600px;
+            animation-duration: 9s;
+            animation-delay: 1.5s;
+        }
+
+        .hero .aura-glow { top: 22%; left: 50%; transform: translate(-50%, -50%); }
+        .hero .aura-glow.secondary { top: 70%; left: 20%; transform: translate(-50%, -50%); }
+        .pillars-section .aura-glow { top: 35%; left: 8%; }
+        .pillars-section .aura-glow.secondary { top: 60%; left: 90%; }
+        .testimonial-section .aura-glow { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+        .footer-cta .aura-glow { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+        .footer-cta .aura-glow.secondary { top: 20%; left: 80%; transform: translate(-50%, -50%); }
+
+        /* Partículas doradas */
+        .gold-particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: #F7D070;
+            box-shadow: 0 0 12px 3px rgba(247, 208, 112, 0.7);
+            opacity: 0;
+            animation: floatParticle 8s infinite ease-in-out;
+            pointer-events: none;
+            z-index: 2;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            min-height: 95vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .live-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            letter-spacing: 1px;
+            color: #94A3B8;
+            margin-bottom: 24px;
+            font-weight: 400;
+        }
+
+        .live-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #4ADE80;
+            box-shadow: 0 0 8px 2px rgba(74, 222, 128, 0.6);
+            animation: pulseDot 1.8s infinite;
+        }
+
+        .eyebrow {
+            font-size: 11px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #C5A059;
+            margin-bottom: 28px;
+            font-weight: 500;
+            border-left: 1px solid rgba(197, 160, 89, 0.3);
+            border-right: 1px solid rgba(197, 160, 89, 0.3);
+            padding: 0 16px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.8rem;
+            font-weight: 400;
+            color: #FFFFFF;
+            line-height: 1.15;
+            margin-bottom: 28px;
+            max-width: 900px;
+            text-shadow: 0 0 40px rgba(197, 160, 89, 0.15);
+        }
+
+        h1 em {
+            font-style: italic;
+            color: #F7D070;
+            font-weight: 400;
+        }
+
+        .subheadline {
+            font-size: 1.15rem;
+            color: #94A3B8;
+            max-width: 650px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 36px;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        .micro-benefits {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 44px;
+        }
+
+        .micro-benefit {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+            color: #C5A059;
+            font-weight: 500;
+        }
+
+        .micro-benefit svg {
+            width: 14px;
+            height: 14px;
+            fill: #C5A059;
+        }
+
+        /* BOTÓN METÁLICO PREMIUM */
+        .btn-cta {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 19px 42px;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #08080C;
+            text-decoration: none;
+            background: linear-gradient(135deg, #F7D070 0%, #C5A059 50%, #9A7B36 100%);
+            background-size: 200% auto;
+            border-radius: 99px;
+            border: 1px solid rgba(255, 240, 194, 0.5);
+            box-shadow: 0 4px 25px rgba(197, 160, 89, 0.35), 0 0 0 0 rgba(247, 208, 112, 0.5);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            cursor: pointer;
+            animation: ctaPulse 2.8s infinite;
+            position: relative;
+        }
+
+        .btn-cta svg {
+            width: 22px;
+            height: 22px;
+            fill: #08080C;
+        }
+
+        .btn-cta:hover {
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 10px 40px rgba(197, 160, 89, 0.6);
+            background-position: right center;
+            animation-play-state: paused;
+        }
+
+        .cta-microcopy {
+            display: block;
+            font-size: 12px;
+            color: #6B7280;
+            margin-top: 16px;
+            letter-spacing: 0.5px;
+        }
+
+        /* PILARES EN CRISTAL AHUMADO */
+        .pillars-section {
+            padding: 120px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.6rem;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+
+        .section-intro {
+            color: #94A3B8;
+            font-size: 1rem;
+            max-width: 560px;
+            margin: 0 auto 64px auto;
+            font-weight: 300;
+        }
+
+        .grid-pillars {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+        }
+
+        .card {
+            background: rgba(15, 15, 22, 0.45);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(197, 160, 89, 0.07);
+            border-radius: 20px;
+            padding: 44px 32px;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            text-align: left;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(197, 160, 89, 0.35);
+            background: rgba(22, 22, 30, 0.7);
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.6), 0 0 30px rgba(197, 160, 89, 0.08);
+        }
+
+        .card-icon {
+            width: 52px;
+            height: 52px;
+            margin: 0 0 26px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: rgba(197, 160, 89, 0.06);
+            color: #C5A059;
+            font-size: 20px;
+            border: 1px solid rgba(197, 160, 89, 0.15);
+            transition: all 0.4s ease;
+        }
+
+        .card:hover .card-icon {
+            background: #C5A059;
+            color: #08080C;
+            box-shadow: 0 0 18px rgba(197, 160, 89, 0.5);
+        }
+
+        .card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+            font-weight: 400;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            color: #94A3B8;
+            font-weight: 300;
+        }
+
+        /* TESTIMONIAL */
+        .testimonial-section {
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .testimonial-container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 60px 40px;
+            background: rgba(15, 15, 22, 0.4);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(197, 160, 89, 0.08);
+            border-radius: 24px;
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            z-index: 2;
+        }
+
+        .testimonial-container:hover {
+            transform: translateY(-5px);
+            border-color: rgba(197, 160, 89, 0.35);
+            background: rgba(20, 20, 28, 0.65);
+            box-shadow: 0 20px 50px rgba(197, 160, 89, 0.1), 0 0 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .quote-icon {
+            font-family: 'Playfair Display', serif;
+            font-size: 5.5rem;
+            color: rgba(197, 160, 89, 0.25);
+            line-height: 0;
+            margin-bottom: 20px;
+            display: block;
+            transition: all 0.4s ease;
+        }
+
+        .testimonial-container:hover .quote-icon {
+            color: rgba(197, 160, 89, 0.55);
+            transform: scale(1.05);
+        }
+
+        .testimonial-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.9rem;
+            font-style: italic;
+            color: #E2E8F0;
+            margin-bottom: 24px;
+            font-weight: 400;
+            line-height: 1.45;
+        }
+
+        .testimonial-author {
+            font-size: 12px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #C5A059;
+            font-weight: 500;
+        }
+
+        .stars-rating {
+            margin-top: 14px;
+            color: #F7D070;
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+
+        /* Mini grid de testimonios */
+        .mini-testimonials {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+            max-width: 850px;
+            margin: 32px auto 0 auto;
+        }
+
+        .mini-card {
+            background: rgba(15, 15, 22, 0.35);
+            border: 1px solid rgba(197, 160, 89, 0.06);
+            border-radius: 16px;
+            padding: 24px;
+            text-align: left;
+            transition: all 0.3s ease;
+        }
+
+        .mini-card:hover {
+            border-color: rgba(197, 160, 89, 0.25);
+            transform: translateY(-3px);
+        }
+
+        .mini-card p {
+            font-size: 0.85rem;
+            color: #94A3B8;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .mini-card span {
+            font-size: 11px;
+            color: #C5A059;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        /* CIERRE / FOOTER */
+        .footer-cta {
+            padding: 100px 0 60px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .urgency-banner {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(197, 160, 89, 0.08);
+            border: 1px solid rgba(197, 160, 89, 0.25);
+            border-radius: 99px;
+            padding: 10px 22px;
+            font-size: 12px;
+            color: #F7D070;
+            letter-spacing: 0.5px;
+            margin-bottom: 28px;
+            font-weight: 500;
+        }
+
+        .footer-box {
+            max-width: 950px;
+            margin: 0 auto;
+            padding: 70px 50px;
+            background: rgba(15, 15, 22, 0.45);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(197, 160, 89, 0.06);
+            border-radius: 28px;
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            z-index: 2;
+        }
+
+        .footer-box:hover {
+            transform: translateY(-6px);
+            border-color: rgba(197, 160, 89, 0.4);
+            background: rgba(22, 22, 32, 0.7);
+            box-shadow: 0 25px 60px rgba(197, 160, 89, 0.12), 0 0 40px rgba(0, 0, 0, 0.6);
+        }
+
+        /* ENLACES LEGALES Y DISCLAIMER OBLIGATORIO */
+        .legal-footer {
+            margin-top: 60px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(148, 163, 184, 0.08);
+            font-size: 11px;
+            color: #64748B;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.8;
+        }
+
+        .legal-links {
+            margin-bottom: 16px;
+        }
+
+        .legal-links a {
+            color: #94A3B8;
+            text-decoration: none;
+            margin: 0 12px;
+            transition: color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .legal-links a:hover {
+            color: #C5A059;
+        }
+
+        /* ESTILOS DE LAS VENTANAS MODALES LEGALES (CSS PURO) */
+        .modal-legal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(4, 4, 6, 0.85);
+            backdrop-filter: blur(12px);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.4s ease;
+        }
+
+        .modal-legal:target {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .modal-content {
+            background: #0F0F16;
+            border: 1px solid rgba(197, 160, 89, 0.2);
+            border-radius: 20px;
+            max-width: 650px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            padding: 40px;
+            text-align: left;
+            position: relative;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+        }
+
+        .modal-content h3 {
+            font-family: 'Playfair Display', serif;
+            color: #FFFFFF;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(197, 160, 89, 0.1);
+            padding-bottom: 10px;
+        }
+
+        .modal-content p, .modal-content ul {
+            font-size: 0.9rem;
+            color: #94A3B8;
+            margin-bottom: 16px;
+        }
+
+        .modal-content ul {
+            padding-left: 20px;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: #94A3B8;
+            text-decoration: none;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .close-modal:hover {
+            color: #C5A059;
+        }
+
+        /* KEYFRAMES ANIMACIONES */
+        @keyframes starsTwinkle {
+            from { background-position: 0 0, 40px 60px, 130px 270px; }
+            to { background-position: 1000px 500px, 1040px 560px, 1130px 770px; }
+        }
+
+        @keyframes pulseAura {
+            0% { transform: scale(1) translate(-50%, -50%); opacity: 0.75; }
+            100% { transform: scale(1.18) translate(-50%, -50%); opacity: 1; }
+        }
+
+        @keyframes rotateSlow {
+            from { transform: translate(-50%, -50%) rotate(0deg); }
+            to { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        @keyframes pulseDot {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        @keyframes ctaPulse {
+            0% { box-shadow: 0 4px 25px rgba(197, 160, 89, 0.35), 0 0 0 0 rgba(247, 208, 112, 0.45); }
+            70% { box-shadow: 0 4px 25px rgba(197, 160, 89, 0.35), 0 0 0 16px rgba(247, 208, 112, 0); }
+            100% { box-shadow: 0 4px 25px rgba(197, 160, 89, 0.35), 0 0 0 0 rgba(247, 208, 112, 0); }
+        }
+
+        @keyframes floatParticle {
+            0% { transform: translateY(0) translateX(0); opacity: 0; }
+            10% { opacity: 0.8; }
+            50% { transform: translateY(-120px) translateX(20px); opacity: 0.5; }
+            90% { opacity: 0; }
+            100% { transform: translateY(-200px) translateX(-10px); opacity: 0; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, .aura-glow, .btn-cta, .sacred-geometry, .universe-bg, .gold-particle {
+                animation: none !important;
+            }
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.4rem; }
+            h2 { font-size: 1.9rem; }
+            .testimonial-text { font-size: 1.4rem; }
+            .testimonial-container { padding: 40px 20px; }
+            .footer-box { padding: 45px 20px; }
+            .aura-glow { width: 420px; height: 420px; }
+            .aura-glow.secondary { width: 320px; height: 320px; }
+            .micro-benefits { gap: 14px; flex-direction: column; align-items: center; }
+            .card { text-align: center; }
+            .card-icon { margin: 0 auto 26px auto; }
+            .legal-links a { display: inline-block; margin: 8px 12px; }
+            .modal-content { padding: 24px; width: 95%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="universe-bg"></div>
+    <div class="bg-pattern"></div>
+    <svg class="sacred-geometry" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <g fill="none" stroke="#C5A059" stroke-width="0.3">
+            <circle cx="100" cy="100" r="80"/>
+            <circle cx="100" cy="40" r="40"/>
+            <circle cx="100" cy="160" r="40"/>
+            <circle cx="48" cy="70" r="40"/>
+            <circle cx="48" cy="130" r="40"/>
+            <circle cx="152" cy="70" r="40"/>
+            <circle cx="152" cy="130" r="40"/>
+            <circle cx="100" cy="100" r="40"/>
+        </g>
+    </svg>
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero">
+        <div class="aura-glow"></div>
+        <div class="aura-glow secondary"></div>
+        <div class="gold-particle" style="left: 15%; animation-delay: 0s;"></div>
+        <div class="gold-particle" style="left: 80%; animation-delay: 2s;"></div>
+        <div class="gold-particle" style="left: 45%; animation-delay: 4s;"></div>
+        <div class="gold-particle" style="left: 65%; animation-delay: 1s;"></div>
+
+        <div class="container">
+            <span class="live-indicator"><span class="live-dot"></span> Lecturas en vivo ahora · LATAM</span>
+            <span class="eyebrow">Consulta Privada y Exclusiva para LATAM</span>
+            <h1>Hay una respuesta que tu mente ya conoce. <em>Hoy es el día para escucharla.</em></h1>
+            <p class="subheadline">Deja de dar vueltas a la misma pregunta. En una sesión privada y 100% confidencial, vas a ver con total claridad qué está pasando en tu amor, tu dinero o tu camino — y qué hacer al respecto.</p>
+
+            <div class="micro-benefits">
+                <span class="micro-benefit">
+                    <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                    100% confidencial
+                </span>
+                <span class="micro-benefit">
+                    <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                    Respuesta directa, sin rodeos
+                </span>
+                <span class="micro-benefit">
+                    <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                    Cupos limitados por día
+                </span>
+            </div>
+
+            <a href="#" class="btn-cta whatsapp-link" target="_blank">
+                <svg viewBox="0 0 24 24">
+                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.4 0 11.973 0c3.184.001 6.177 1.242 8.426 3.496 2.248 2.254 3.487 5.251 3.484 8.437-.006 6.625-5.347 11.97-11.92 11.97-.211 0-.421-.006-.63-.016l-6.126 1.605A.717.717 0 0 1 .057 24zm6.262-4.103a.72.72 0 0 1 .531.047 10.211 10.211 0 0 0 5.124 1.378c5.807 0 10.53-4.685 10.535-10.44a10.407 10.407 0 0 0-3.075-7.411A10.375 10.375 0 0 0 11.973 1.43c-5.808 0-10.53 4.686-10.535 10.44a10.29 10.29 0 0 0 1.5 5.346.73.73 0 0 1 .075.58L1.75 22.214l4.572-1.197zM17.15 14.1c-.283-.141-1.674-.82-1.932-.915-.258-.095-.447-.141-.634.141-.188.283-.726.915-.89 1.102-.163.188-.327.211-.61.071-.283-.141-1.194-.437-2.275-1.396-.84-.746-1.405-1.667-1.57-1.95-.164-.283-.017-.435.124-.575.127-.127.283-.327.425-.49.141-.164.188-.283.283-.472.094-.188.047-.354-.024-.495-.071-.141-.634-1.517-.868-2.083-.228-.547-.46-.473-.634-.482-.164-.007-.352-.008-.54-.008-.188 0-.493.07-.752.354-.258.283-.987.957-.987 2.33s1.004 2.705 1.145 2.893c.141.188 1.976 2.992 4.793 4.195.67.286 1.193.457 1.6.587.673.213 1.286.183 1.77.11.539-.08 1.674-.68 1.909-1.337.234-.656.234-1.219.164-1.337-.07-.114-.258-.183-.54-.325z"/>
+                </svg>
+                Hablar Ahora por WhatsApp
+            </a>
+            <span class="cta-microcopy">Respuesta en minutos · Sin compromiso · 100% privado</span>
+        </div>
+    </section>
+
+    <!-- 2. SECCIÓN DE TRES PILARES -->
+    <section class="pillars-section">
+        <div class="aura-glow"></div>
+        <div class="aura-glow secondary"></div>
+        <div class="container">
+            <h2>Una lectura diseñada para decisiones que no admiten ruido.</h2>
+            <p class="section-intro">No es entretenimiento. Es una herramienta de decisión para personas que necesitan ver claro antes de actuar.</p>
+            <div class="grid-pillars">
+                <div class="card">
+                    <div class="card-icon">✦</div>
+                    <h3>Lectura de Tarot Evolutivo</h3>
+                    <p>Una interpretación profunda para revelar patrones, bloqueos y posibilidades reales — sin dramatismo ni falsas promesas.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">👁</div>
+                    <h3>Alineación de Caminos</h3>
+                    <p>Claridad sobre qué camino sostiene tu energía, tu reputación y tus decisiones de largo plazo.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌙</div>
+                    <h3>Guía Astrológica Personalizada</h3>
+                    <p>Una mirada precisa a tus ciclos personales para elegir mejor cuándo actuar, esperar o cerrar procesos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. TESTIMONIAL EDITORIAL -->
+    <section class="testimonial-section">
+        <div class="aura-glow"></div>
+        <div class="container">
+            <div class="testimonial-container">
+                <span class="quote-icon">"</span>
+                <p class="testimonial-text">La sesión me conectó con una claridad que no encontraba en ningún otro lugar. Salí con el alma en calma y las decisiones, por fin, en orden.</p>
+                <p class="testimonial-author">— Elena R.</p>
+                <div class="stars-rating">★★★★★</div>
+            </div>
+            <div class="mini-testimonials">
+                <div class="mini-card">
+                    <p>"Llegué con dudas y salí con un plan claro. Justo lo que necesitaba escuchar."</p>
+                    <span>— Camila V.</span>
+                </div>
+                <div class="mini-card">
+                    <p>"Directo, honesto y sin vueltas. Por fin alguien que no me dijo lo que quería oír."</p>
+                    <span>— Andrés M.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. CIERRE DEL EMBUDO -->
+    <section class="footer-cta">
+        <div class="aura-glow"></div>
+        <div class="aura-glow secondary"></div>
+        <div class="container">
+            <div class="footer-box">
+                <span class="urgency-banner">⏳ Quedan pocos cupos disponibles hoy</span>
+                <h2 style="margin-bottom: 20px;">La pregunta que te quita el sueño merece una respuesta real, hoy.</h2>
+                <p class="subheadline" style="margin: 0 auto 40px auto;">Los cupos diarios son limitados para garantizar una lectura personalizada, discreta y energéticamente enfocada en tu situación. Escríbenos ahora y agenda tu sesión antes de que se agoten.</p>
+
+                <a href="#" class="btn-cta whatsapp-link" target="_blank">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.4 0 11.973 0c3.184.001 6.177 1.242 8.426 3.496 2.248 2.254 3.487 5.251 3.484 8.437-.006 6.625-5.347 11.97-11.92 11.97-.211 0-.421-.006-.63-.016l-6.126 1.605A.717.717 0 0 1 .057 24zm6.262-4.103a.72.72 0 0 1 .531.047 10.211 10.211 0 0 0 5.124 1.378c5.807 0 10.53-4.685 10.535-10.44a10.407 10.407 0 0 0-3.075-7.411A10.375 10.375 0 0 0 11.973 1.43c-5.808 0-10.53 4.686-10.535 10.44a10.29 10.29 0 0 0 1.5 5.346.73.73 0 0 1 .075.58L1.75 22.214l4.572-1.197zM17.15 14.1c-.283-.141-1.674-.82-1.932-.915-.258-.095-.447-.141-.634.141-.188.283-.726.915-.89 1.102-.163.188-.327.211-.61.071-.283-.141-1.194-.437-2.275-1.396-.84-.746-1.405-1.667-1.57-1.95-.164-.283-.017-.435.124-.575.127-.127.283-.327.425-.49.141-.164.188-.283.283-.472.094-.188.047-.354-.024-.495-.071-.141-.634-1.517-.868-2.083-.228-.547-.46-.473-.634-.482-.164-.007-.352-.008-.54-.008-.188 0-.493.07-.752.354-.258.283-.987.957-.987 2.33s1.004 2.705 1.145 2.893c.141.188 1.976 2.992 4.793 4.195.67.286 1.193.457 1.6.587.673.213 1.286.183 1.77.11.539-.08 1.674-.68 1.909-1.337.234-.656.234-1.219.164-1.337-.07-.114-.258-.183-.54-.325z"/>
+                    </svg>
+                    Quiero Mi Sesión Privada Ahora
+                </a>
+                <span class="cta-microcopy">Te respondemos en minutos · Conversación 100% privada</span>
+            </div>
+
+            <!-- FOOTER LEGAL OBLIGATORIO -->
+            <div class="legal-footer">
+                <div class="legal-links">
+                    <a href="#privacy-modal">Política de Privacidad</a> | 
+                    <a href="#terms-modal">Términos y Condiciones</a>
+                </div>
+                <p><strong>Descargo de responsabilidad:</strong> De acuerdo con las legislaciones vigentes, se establece que las lecturas, predicciones y servicios de guía espiritual tienen fines de entretenimiento y asistencia personal. Los resultados de los servicios pueden variar de persona a persona y no sustituyen el asesoramiento médico, psicológico, legal o financiero profesional. Servicio exclusivo para mayores de 18 años.</p>
+                <p style="margin-top: 10px; opacity: 0.5;">© 2026 Claridad Absoluta. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- VENTANA MODAL: POLÍTICA DE PRIVACIDAD -->
+    <div id="privacy-modal" class="modal-legal">
+        <div class="modal-content">
+            <a href="#close" class="close-modal">&times;</a>
+            <h3>Política de Privacidad</h3>
+            <p><strong>Última actualización:</strong> Junio 2026</p>
+            <p>En Claridad Absoluta nos tomamos muy en serio la privacidad de tus datos. Esta política describe cómo manejamos la información cuando interactúas con nuestra landing page.</p>
+            <p><strong>1. Recopilación de Información:</strong> Este sitio web no almacena de forma automatizada bases de datos con información personal identificable. Los datos que proporcionas se procesan únicamente cuando decides hacer clic en los botones de contacto y ser redirigido a la plataforma externa de WhatsApp.</p>
+            <p><strong>2. Uso de Cookies y Píxeles:</strong> Utilizamos herramientas de análisis y optimización publicitaria (como Google Analytics y Meta Pixel) que emplean cookies sutiles para registrar el volumen de visitas y las interacciones generales dentro de la interfaz, con el único fin de medir el rendimiento de nuestras campañas de marketing.</p>
+            <p><strong>3. Confidencialidad:</strong> Cualquier detalle conversado en el marco de la consulta privada vía WhatsApp es estrictamente confidencial y bajo ningún concepto será compartido, vendido o distribuido a terceros.</p>
+        </div>
+    </div>
+
+    <!-- VENTANA MODAL: TÉRMINOS Y CONDICIONES -->
+    <div id="terms-modal" class="modal-legal">
+        <div class="modal-content">
+            <a href="#close" class="close-modal">&times;</a>
+            <h3>Términos y Condiciones</h3>
+            <p><strong>Última actualización:</strong> Junio 2026</p>
+            <p>Por favor, lee detalladamente los siguientes términos antes de agendar y hacer uso de los servicios provistos en este sitio web.</p>
+            <p><strong>1. Uso Exclusivo para Mayores de Edad:</strong> Al solicitar una lectura o asesoría espiritual, declaras explícitamente tener más de 18 años y contar con la capacidad legal completa en tu país de residencia.</p>
+            <p><strong>2. Naturaleza del Servicio:</strong> Las consultas e interpretaciones de tarot, ciclos astrológicos y alineación de caminos se ofrecen como herramientas de orientación personal y autoconocimiento. No constituyen, ni reemplazan, diagnósticos médicos formales, tratamientos psicológicos, ni consultorías financieras o legales vinculantes.</p>
+            <p><strong>3. Voluntad del Usuario:</strong> El usuario asume total responsabilidad sobre las decisiones individuales tomadas tras recibir la sesión. No se garantizan resultados exactos infalibles, dado que la interpretación responde a tendencias energéticas y al libre albedrío de cada persona.</p>
+        </div>
+    </div>
+
+    <!-- 3. CONFIGURADOR AUTOMÁTICO DE WHATSAPP + SEGUIMIENTO -->
+    <script>
+        const WHATSAPP_NUMBER = "573019360593"; 
+        const DEFAULT_MESSAGE = "Hola, quiero agendar una sesión privada";
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const encodedText = encodeURIComponent(DEFAULT_MESSAGE);
+            const fullUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedText}`;
+            
+            const links = document.querySelectorAll(".whatsapp-link");
+            links.forEach(link => {
+                link.href = fullUrl;
+                
+                link.addEventListener("click", function(event) {
+                    // Evitamos que salte instantáneamente para dar tiempo al tracking
+                    event.preventDefault();
+                    
+                    // Respaldo de píxel de Meta si decides activarlo después
+                    if (typeof fbq === "function") fbq('track', 'Contact');
+                    
+                    // Disparamos la conversión de Google Ads con callback seguro
+                    if (typeof gtag_report_conversion === "function") {
+                        gtag_report_conversion(fullUrl);
+                    } else {
+                        // Si por algún motivo no cargó la función, redirigimos normalmente
+                        window.open(fullUrl, '_blank');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
