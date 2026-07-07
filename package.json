@@ -1,0 +1,17 @@
+{
+  "name": "landing-claridad",
+  "version": "1.0.0",
+  "description": "Landing page for Claridad Absoluta",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Static HTML site - no build needed'",
+    "dev": "npx serve .",
+    "lint": "echo 'No linting configured for static HTML'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
